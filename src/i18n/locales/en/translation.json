@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "registry": "Registry",
+    "map": "Map",
+    "blog": "Publications",
+    "about": "Foundation",
+    "contact": "Contact",
+    "search": "Search"
+  },
+  "hero": {
+    "count": "2,476",
+    "subtitle": "Art Deco architecture buildings worldwide",
+    "searchPlaceholder": "Search by building, architect or city..."
+  },
+  "sections": {
+    "latestAdditions": "Latest Additions",
+    "newsEvents": "News & Publications",
+    "exploreByCity": "Explore by City",
+    "viewAll": "View all",
+    "relatedLocations": "Related Locations",
+    "relatedPosts": "Related Posts"
+  },
+  "filters": {
+    "country": "Country",
+    "region": "Region",
+    "city": "City",
+    "type": "Type",
+    "period": "Period",
+    "materials": "Materials",
+    "architect": "Architect",
+    "clearAll": "Clear Filters",
+    "results": "{{count}} results",
+    "search": "Search..."
+  },
+  "location": {
+    "architect": "Architect",
+    "year": "Year",
+    "period": "Period",
+    "type": "Type",
+    "materials": "Materials",
+    "decorativeMotifs": "Decorative Motifs",
+    "details": "Details",
+    "viewOnMap": "View on map",
+    "tags": "Tags"
+  },
+  "blog": {
+    "readMore": "Read more",
+    "publishedOn": "Published on",
+    "categories": {
+      "all": "All",
+      "news": "News",
+      "books": "Books",
+      "publication": "Publications",
+      "offer": "Offers",
+      "travel": "Travel"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "successTitle": "Message Sent",
+    "successMessage": "Thank you for contacting us. We will respond as soon as possible.",
+    "subjects": {
+      "general": "General Inquiry",
+      "research": "Research Collaboration",
+      "membership": "Memberships",
+      "press": "Press & Media",
+      "other": "Other"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "noResults": "No results found",
+    "back": "Back",
+    "viewDetails": "View details"
+  },
+  "footer": {
+    "description": "Archive and registry of Art Deco architecture and art worldwide.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "followUs": "Follow us",
+    "newsletter": "Newsletter",
+    "copyright": "© {{year}} Art Deco Ibérico. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "cookies": "Cookies"
+  }
+}

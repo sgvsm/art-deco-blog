@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "registry": "Registre",
+    "map": "Mapa",
+    "blog": "Publicacions",
+    "about": "Fundació",
+    "contact": "Contacte",
+    "search": "Cercar"
+  },
+  "hero": {
+    "count": "2.476",
+    "subtitle": "Edificis d'arquitectura Art Déco a tot el món",
+    "searchPlaceholder": "Cerca per edifici, arquitecte o ciutat..."
+  },
+  "sections": {
+    "latestAdditions": "Últimes Incorporacions",
+    "newsEvents": "Notícies i Publicacions",
+    "exploreByCity": "Explora per Ciutat",
+    "viewAll": "Veure tot",
+    "relatedLocations": "Ubicacions Relacionades",
+    "relatedPosts": "Publicacions Relacionades"
+  },
+  "filters": {
+    "country": "País",
+    "region": "Regió",
+    "city": "Ciutat",
+    "type": "Tipologia",
+    "period": "Període",
+    "materials": "Materials",
+    "architect": "Arquitecte",
+    "clearAll": "Esborrar Filtres",
+    "results": "{{count}} resultats",
+    "search": "Cerca..."
+  },
+  "location": {
+    "architect": "Arquitecte",
+    "year": "Any",
+    "period": "Període",
+    "type": "Tipus",
+    "materials": "Materials",
+    "decorativeMotifs": "Motius Decoratius",
+    "details": "Detalls",
+    "viewOnMap": "Veure al mapa",
+    "tags": "Etiquetes"
+  },
+  "blog": {
+    "readMore": "Llegir més",
+    "publishedOn": "Publicat el",
+    "categories": {
+      "all": "Totes",
+      "news": "Notícies",
+      "books": "Llibres",
+      "publication": "Publicacions",
+      "offer": "Ofertes",
+      "travel": "Viatges"
+    }
+  },
+  "contact": {
+    "title": "Contacte",
+    "name": "Nom",
+    "email": "Email",
+    "subject": "Assumpte",
+    "message": "Missatge",
+    "submit": "Enviar Missatge",
+    "successTitle": "Missatge Enviat",
+    "successMessage": "Gràcies per contactar amb nosaltres. Et respondrem el més aviat possible.",
+    "subjects": {
+      "general": "Consulta General",
+      "research": "Col·laboració en Recerca",
+      "membership": "Membresies",
+      "press": "Premsa i Mitjans",
+      "other": "Altres"
+    }
+  },
+  "common": {
+    "loading": "Carregant...",
+    "error": "S'ha produït un error",
+    "noResults": "No s'han trobat resultats",
+    "back": "Tornar",
+    "viewDetails": "Veure detalls"
+  },
+  "footer": {
+    "description": "Arxiu i registre de l'arquitectura i art Art Déco a tot el món.",
+    "navigation": "Navegació",
+    "contact": "Contacte",
+    "followUs": "Segueix-nos",
+    "newsletter": "Butlletí informatiu",
+    "copyright": "© {{year}} Art Déco Ibèric. Tots els drets reservats.",
+    "privacy": "Política de Privacitat",
+    "terms": "Termes i Condicions",
+    "cookies": "Cookies"
+  }
+}

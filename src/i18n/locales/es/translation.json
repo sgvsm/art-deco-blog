@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "registry": "Registro",
+    "map": "Mapa",
+    "blog": "Publicaciones",
+    "about": "Fundación",
+    "contact": "Contacto",
+    "search": "Buscar"
+  },
+  "hero": {
+    "count": "2.476",
+    "subtitle": "Edificios de arquitectura Art Déco en todo el mundo",
+    "searchPlaceholder": "Busca por edificio, arquitecto o ciudad..."
+  },
+  "sections": {
+    "latestAdditions": "Últimas Incorporaciones",
+    "newsEvents": "Noticias y Publicaciones",
+    "exploreByCity": "Explora por Ciudad",
+    "viewAll": "Ver todo",
+    "relatedLocations": "Ubicaciones Relacionadas",
+    "relatedPosts": "Publicaciones Relacionadas"
+  },
+  "filters": {
+    "country": "País",
+    "region": "Región",
+    "city": "Ciudad",
+    "type": "Tipología",
+    "period": "Período",
+    "materials": "Materiales",
+    "architect": "Arquitecto",
+    "clearAll": "Borrar Filtros",
+    "results": "{{count}} resultados",
+    "search": "Buscar..."
+  },
+  "location": {
+    "architect": "Arquitecto",
+    "year": "Año",
+    "period": "Período",
+    "type": "Tipo",
+    "materials": "Materiales",
+    "decorativeMotifs": "Motivos Decorativos",
+    "details": "Detalles",
+    "viewOnMap": "Ver en el mapa",
+    "tags": "Etiquetas"
+  },
+  "blog": {
+    "readMore": "Leer más",
+    "publishedOn": "Publicado el",
+    "categories": {
+      "all": "Todas",
+      "news": "Noticias",
+      "books": "Libros",
+      "publication": "Publicaciones",
+      "offer": "Ofertas",
+      "travel": "Viajes"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "name": "Nombre",
+    "email": "Email",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "submit": "Enviar Mensaje",
+    "successTitle": "Mensaje Enviado",
+    "successMessage": "Gracias por contactar con nosotros. Te responderemos lo antes posible.",
+    "subjects": {
+      "general": "Consulta General",
+      "research": "Colaboración en Investigación",
+      "membership": "Membresías",
+      "press": "Prensa y Medios",
+      "other": "Otros"
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Se ha producido un error",
+    "noResults": "No se han encontrado resultados",
+    "back": "Volver",
+    "viewDetails": "Ver detalles"
+  },
+  "footer": {
+    "description": "Archivo y registro de la arquitectura y arte Art Déco en todo el mundo.",
+    "navigation": "Navegación",
+    "contact": "Contacto",
+    "followUs": "Síguenos",
+    "newsletter": "Boletín informativo",
+    "copyright": "© {{year}} Art Déco Ibérico. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "cookies": "Cookies"
+  }
+}
