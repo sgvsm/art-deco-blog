@@ -79,22 +79,22 @@ export function Hero() {
         </div>
       </Container>
 
-      {/* Scrolling Image Gallery - scrolls on hover */}
+      {/* Scrolling Image Gallery - Art Deco Style with dark background */}
       <div
-        className="relative overflow-hidden"
+        className="relative overflow-hidden gallery-deco"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
         <div
           ref={scrollRef}
-          className="flex gap-3 overflow-x-auto py-4 px-4 md:px-8 scrollbar-hide"
+          className="flex gap-2 overflow-x-auto py-4 px-4 md:px-8 scrollbar-hide"
         >
           {/* TODO [STRAPI]: Replace with dynamic gallery images */}
           {heroGalleryImages.map((image, index) => (
             <Link
               key={image.id}
               to="/registro"
-              className={`flex-shrink-0 overflow-hidden bg-light-gray group ${
+              className={`flex-shrink-0 gallery-deco-item bg-light-gray group ${
                 image.aspectRatio === 'horizontal'
                   ? 'w-[calc(25vw-16px)] md:w-[calc(25vw-24px)] aspect-[16/9]'
                   : 'w-[calc(16vw-16px)] md:w-[calc(16vw-24px)] aspect-[9/16]'

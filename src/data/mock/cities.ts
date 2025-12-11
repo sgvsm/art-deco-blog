@@ -1,4 +1,4 @@
-import { CityCloudItem } from '../../types';
+import { CityCloudItem, CountryCloudItem } from '../../types';
 
 // TODO [STRAPI]: Replace with API call or computed from locations data
 export const mockCityCloud: CityCloudItem[] = [
@@ -40,6 +40,52 @@ export const getCityCloudStats = () => {
 // Calculate font size based on count (14px min, 48px max)
 export const getCityFontSize = (count: number): number => {
   const { min, max } = getCityCloudStats();
+  const minSize = 14;
+  const maxSize = 48;
+
+  if (max === min) return (minSize + maxSize) / 2;
+
+  const ratio = (count - min) / (max - min);
+  return minSize + ratio * (maxSize - minSize);
+};
+
+// Country cloud data - aggregated from cities
+// TODO [STRAPI]: Replace with API call or computed from locations data
+export const mockCountryCloud: CountryCloudItem[] = [
+  { country: 'España', count: 495 },
+  { country: 'Portugal', count: 140 },
+  { country: 'USA', count: 166 },
+  { country: 'France', count: 78 },
+  { country: 'Argentina', count: 52 },
+  { country: 'United Kingdom', count: 38 },
+  { country: 'Australia', count: 51 },
+  { country: 'Brasil', count: 46 },
+  { country: 'México', count: 67 },
+  { country: 'Italia', count: 45 },
+  { country: 'Alemania', count: 32 },
+  { country: 'Bélgica', count: 28 },
+  { country: 'Países Bajos', count: 22 },
+  { country: 'Cuba', count: 35 },
+  { country: 'Uruguay', count: 18 },
+  { country: 'Chile', count: 15 },
+  { country: 'India', count: 42 },
+  { country: 'Japón', count: 29 },
+  { country: 'Sudáfrica', count: 19 },
+  { country: 'Marruecos', count: 14 },
+];
+
+// Get min and max counts for country font size calculation
+export const getCountryCloudStats = () => {
+  const counts = mockCountryCloud.map((c) => c.count);
+  return {
+    min: Math.min(...counts),
+    max: Math.max(...counts),
+  };
+};
+
+// Calculate font size for countries (14px min, 48px max)
+export const getCountryFontSize = (count: number): number => {
+  const { min, max } = getCountryCloudStats();
   const minSize = 14;
   const maxSize = 48;
 

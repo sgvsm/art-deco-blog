@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Container } from '../layout';
 import { buildImageUrl } from '../../utils';
+import artDecoPattern from '../../assets/artdecopattern3.png';
 
 // TODO [STRAPI]: Replace with API call for exhibitions
 const exhibitions = [
@@ -34,7 +35,7 @@ export function ExhibitionsSection() {
   const featuredExhibition = {
     title: 'Arquitectura Art Déco frente al mar',
     subtitle: 'Un recorrido por obras que evocan la modernidad marítima desde la edad dorada de la arquitectura Art Déco en todo el mundo.',
-    image: 'https://images.unsplash.com/photo-1534430480872-3498386e7856?w=1200&q=80',
+    image: artDecoPattern,
     link: '/exposiciones',
   };
 

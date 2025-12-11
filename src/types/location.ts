@@ -65,3 +65,8 @@ export interface CityCloudItem {
   region: string;
   country: string;
 }
+
+export interface CountryCloudItem {
+  country: string;
+  count: number;
+}

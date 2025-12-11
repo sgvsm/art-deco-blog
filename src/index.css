@@ -185,4 +185,14 @@
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
+
+  /* Art Deco Gallery - Dark background */
+  .gallery-deco {
+    background: #1A1A1A;
+    padding: 4px;
+  }
+
+  .gallery-deco-item {
+    overflow: hidden;
+  }
 }
